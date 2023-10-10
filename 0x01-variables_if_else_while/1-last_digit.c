@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Prints a text according number
- Return: Always return 0
+ * Return: Always return 0
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 	m = n % 10;
 	if (m > 5)
 	{
-		prinf("Last digit of %d is %d and is greater than 5\n", n, m);
+		printf("Last digit of %d is %d and is greater than 5\n", n, m);
 	}
 	else if (m == 0)
 	{
@@ -24,8 +24,7 @@ int main(void)
 	else
 		(m < 6 && m != 0)
 	{
-		printf("Last digit %d is %d and is less than 6 and not 0\n", n,
-		m);
+		printf("Last digit %d is %d and is less than 6 and not 0\n", n,	m);
 	}
 	return (0);
 }
